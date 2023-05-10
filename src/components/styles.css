@@ -57,7 +57,6 @@
 
 .board {
     margin-top: 50px;
-    margin-right: 100px;
 }
 
 .rows {
@@ -116,4 +115,14 @@ abbr[title] {
     border-bottom: none !important;
     cursor: inherit !important;
     text-decoration: none !important;
+}
+
+
+
+/* For Mobile */
+@media screen and (max-width: 540px) {
+    .board {
+        margin-top:100px;
+        margin-right: 300px;
+    }
 }
