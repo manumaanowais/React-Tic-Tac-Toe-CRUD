@@ -121,8 +121,7 @@ abbr[title] {
 
 /* For Mobile */
 @media screen and (max-width: 540px) {
-    .board {
-        margin-top:100px;
-        margin-right: 300px;
+    .scoreBoard {
+        margin-right: -100px;
     }
 }
