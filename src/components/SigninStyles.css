@@ -1,0 +1,53 @@
+.signindiv {
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 500px;
+    height: 250px;
+    margin-left: 420px;
+    margin-top: 120px;
+}
+
+.signinh1 {
+    color: #8a2be2;
+}
+
+.labels {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.inputs {
+    width: 300px;
+    height: 20px;
+    font-size: 20px;
+    border: 0;
+    border-bottom: 1px solid black;
+    outline: 0;
+    text-align: center;
+}
+
+.btns {
+    font-size: 20px;
+    width: 130px;
+    height: 40px;
+    color: #FFFF00;
+    background-color: #000080;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#signupp{
+    position: fixed;
+    margin-left: 450px;
+    margin-top: 20px;
+}
+
+#signupbtn{
+    background: none;
+    outline: none;
+    border-width: 0px;
+    color: #000080;
+}

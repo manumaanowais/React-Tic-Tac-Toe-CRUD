@@ -1,0 +1,118 @@
+.gameName {
+    color: #483d8b;
+}
+
+#formdiv {
+    margin-left: 400px;
+    margin-top: 100px;
+    border: 1px solid black;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.label {
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.input {
+    width: 300px;
+    height: 20px;
+    font-size: 20px;
+    border: 0;
+    border-bottom: 1px solid black;
+    outline: 0;
+    text-align: center;
+}
+
+.enterGameBtn {
+    font-size: 20px;
+    width: 130px;
+    height: 30px;
+    color: #FFFF00;
+    background-color: #000080;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#withoutnames {
+    font-size: 20px;
+    color: #483d8b;
+    border: none;
+    background: none;
+    margin-top: 20px;
+    margin-right: 340px;
+    cursor: pointer;
+}
+
+#name {
+    margin-top: 100px;
+    margin-left: 400px;
+    color: #8a2be2;
+}
+
+.board {
+    margin-top: 50px;
+}
+
+.rows {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.tictactoegrid {
+    width: 75px;
+    height: 75px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 2px;
+    font-size: 50px;
+}
+
+.tictactoegrid:hover {
+    cursor: pointer;
+    background-color: rgb(240, 240, 240);
+}
+
+.tictactoegrid:disabled {
+    color: black;
+    cursor: no-drop;
+}
+
+#player1,
+#input1,
+#counterx {
+    color: #20b2aa;
+}
+
+#player2,
+#input2,
+#countero {
+    color: #800000;
+}
+
+#result {
+    color: #000080;
+}
+
+.scoreBoard {
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+    float: right;
+    margin-top: -400px;
+    margin-right: 100px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+abbr[title] {
+    border-bottom: none !important;
+    cursor: inherit !important;
+    text-decoration: none !important;
+}

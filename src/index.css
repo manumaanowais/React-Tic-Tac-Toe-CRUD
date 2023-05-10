@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+nav {
+  background-color: black;
+  height: 60px;
+  padding: 16px;
+}
+
+nav a{
+  text-decoration: none;
+  margin-left: 16px;
+  float: left;
+  background-color: transparent;
+  color:white;
+  width: 80px;
+  padding: 5px;
+}
+
+nav a:hover{
+  font-size: 17px;
+  color:white;
+  font-weight: bold;
+}
+
+nav a.active{
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+nav .custom-btn::after {
+  display: none;
+}
+nav .dropdown-menu{
+  margin-right: 20px;
+  background-color: black;
+}
+nav .dropdown-menu .dropdown-item{
+  width: 150px;
+  color: white;
+}
+nav .dropdown-menu .dropdown-item:hover{
+  color:black;
+  background-color: white;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+#search{
+  width:1000px;
+  padding:5px;
+  border-radius: 10px;
+}
